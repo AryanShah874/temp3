@@ -1,0 +1,50 @@
+.card-container {
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  &.profit {
+    background-color: #1976d2;
+  }
+
+  &.loss {
+    background-color: #e53935;
+  }
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.company-name {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.profit-margin {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.trade-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.trade-detail {
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 500;
+}

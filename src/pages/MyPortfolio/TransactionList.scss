@@ -1,0 +1,38 @@
+.transaction-list {
+  &__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem; // py-10
+    padding-bottom: 2.5rem; // py-10
+  }
+
+  &__empty {
+    text-align: center;
+    padding-top: 2.5rem; // py-10
+    padding-bottom: 2.5rem; // py-10
+  }
+
+  &__empty-message {
+    color: #6b7280; // text-gray-500
+    font-family: 'Poppins, sans-serif';
+  }
+
+  &__group {
+    margin-bottom: 1.5rem; // mb-6
+  }
+
+  &__date-header {
+    color: #4b5563; // text-gray-700
+    font-weight: 500; // font-medium
+    margin-bottom: 0.5rem; // mb-2
+    font-family: 'Poppins, sans-serif';
+  }
+
+  &__transactions-container {
+    background-color: white; // bg-white
+    border-radius: 0.5rem; // rounded-lg
+    padding: 1rem; // p-4
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); // shadow-sm
+  }
+}

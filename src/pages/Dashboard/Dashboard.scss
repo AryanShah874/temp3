@@ -1,0 +1,19 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+  &__content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    flex: 1;
+  }
+  
+  @media (max-width: 768px) {
+    &__content {
+      padding: 1rem;
+    }
+  }
+}
